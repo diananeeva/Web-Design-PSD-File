@@ -1,0 +1,348 @@
+/* Media Queries for responsiveness */
+
+/* For Tablets (1024px or less) */
+@media (max-width: 1024px) {
+    .app-section {
+      padding: 50px 50px; 
+    }
+  
+    .app-h2 {
+      font-size: 28px; 
+    }
+  
+    .app-p {
+      font-size: 16px; 
+    }
+  
+    .app-images {
+      gap: 20px;
+    }
+  
+    .app-image-item {
+      width: 100%; 
+    }
+  
+    .app-button {
+      width: 70%;
+      font-size: 14px; 
+      padding: 12px;
+    }
+    .section-flex {
+      flex-direction: column; 
+      align-items: center; 
+      gap: 50px; 
+    }
+  
+    .similar-img img {
+      width: 80%; 
+    }
+  
+    .section-container {
+      padding-top: 30px;
+      text-align:center;
+    }
+  
+    .section-title {
+      font-size: 32px; 
+      text-align: center;
+    }
+  
+    .section-paragraph{
+      padding-bottom: 15px; 
+    }
+    .dark-overlay {
+      width: 70%; 
+      left: 50%;
+      transform: translateX(-50%); 
+      bottom: -30px;
+      padding: 30px;
+    }
+    .our-company-p{
+      padding: 0;
+    }
+    .blog-container-img {
+      grid-template-columns: repeat(2, 1fr); 
+    }
+  
+    .blog-image-item img {
+      height: 200px; 
+    }
+    .newsletter-section {
+      flex-direction: column;
+      align-items: center;
+      text-align: center;
+    }
+  
+    .news-letter-text {
+      max-width: 90%;
+      margin-bottom: 30px;
+    }
+  
+    .newsletter-form {
+      width: 60%; 
+    }
+    .contact-text-container {
+      width: 70%; 
+      padding-bottom: 30px;
+    }
+  
+    footer {
+      padding: 40px 50px; 
+    }
+  
+    .all-footer-ul {
+      flex-direction: column; 
+      gap: 25px; 
+      line-height: 26px;
+    }
+  
+    .bottom-text {
+      flex-direction: column; 
+      align-items: center; 
+      gap: 25px;
+    }
+  
+    .bottom-text ul {
+      flex-direction: column; 
+      gap: 12px;
+    }
+  
+    .new-phone-image {
+      right: 50px; 
+      transform: translateY(-20%);  
+    }
+  
+    .new-phone-image img {
+      width: 170px; 
+    }
+  }
+  
+  /* For Smartphones (768px or less) */
+  @media (max-width: 768px) {
+    nav {
+      flex-direction: column;
+      padding: 15px;
+      height: auto;
+    }
+  
+    nav ul {
+      flex-direction: column;
+      gap: 15px;
+      margin-left: 0;
+    }
+  
+    .discover-new-container {
+      flex-direction: column;
+      align-items: center;
+      gap: 40px;
+    }
+  
+    .discover-new-text {
+      width: 100%;
+      text-align: center;
+    }
+  
+    .discover-new-h1 {
+      font-size: 45px;
+      text-align: center;
+    }
+  
+    .discover-new-p {
+      font-size: 16px;
+      padding-right: 0;
+      text-align: center;
+    }
+  
+    .discover-new-picture img {
+      width: 180px;
+    }
+  
+    .info-box {
+      width: 220px;
+      bottom: 80px;
+    }
+  
+    .app-section {
+      padding: 30px 20px;
+    }
+  
+    .app-h2 {
+      font-size: 24px;
+    }
+  
+    .app-p {
+      font-size: 14px;
+      padding: 20px;
+    }
+  
+    .app-images {
+      width:100%;
+      flex-direction: column;
+      gap: 20px;
+    }
+  
+    .app-button {
+      
+      font-size: 14px;
+      width:50%;
+    }
+    .section-container{
+      text-align:center;
+    }
+    .dark-overlay {
+      position: relative; 
+      left: 0;
+      transform: none;
+      width: 100%;
+      text-align: center;
+      padding: 20px;
+    }
+    .our-company-p{
+      padding: 0;
+    }
+    .blog-container-img {
+      grid-template-columns: 1fr; 
+    }
+  
+    .h2-blog {
+      font-size: 28px; 
+      padding-bottom: 30px; 
+    }
+  
+    .blog-image-item img {
+      height: 180px; 
+    }
+  
+    .blog-h3 {
+      font-size: 18px;
+    }
+    .our-company img{
+      width: 100%;
+    height: 200px;
+    }
+    .newsletter-form {
+      width: 90%; 
+      padding: 30px;
+    }
+  
+    .name-surname-container {
+      flex-direction: column; 
+      gap: 10px;
+    }
+    .contact-text-container {
+      width: 80%; 
+      padding-bottom: 20px;
+    }
+  
+    footer {
+      padding: 30px 20px;
+    }
+  
+    .all-footer-ul {
+      flex-direction: column;
+      gap: 20px; 
+      line-height: 24px;
+    }
+  
+    .bottom-text {
+      flex-direction: column;
+      align-items: center; 
+      gap: 20px;
+    }
+  
+    .bottom-text ul {
+      flex-direction: column; 
+      gap: 10px;
+    }
+  
+    .new-phone-image {
+      right: 20px; 
+      transform: translateY(-20%); 
+    }
+  
+    .new-phone-image img {
+      width: 150px;  
+    }
+  }
+  /* For Small Smartphones (480px or less) */
+  @media (max-width: 480px) {
+    .discover-new-h1 {
+      font-size: 35px;
+    }
+  
+    .discover-new-p {
+      font-size: 14px;
+    }
+  
+    .discover-new-button {
+      width: 120px;
+      font-size: 12px;
+    }
+  
+    .discover-new-picture img {
+      width: 160px;
+    }
+  
+    .info-box {
+      width: 200px;
+      bottom: 60px;
+    }
+  
+    .app-section {
+      padding: 20px 10px;
+    }
+  
+    .app-h2 {
+      font-size: 20px;
+    }
+  
+    .app-p {
+      font-size: 12px;
+      padding: 20px;
+    }
+  
+    .app-images {
+      flex-direction: column;
+      gap: 15px;
+    }
+    .app-button {
+      width:50%;
+    }
+    .our-company img{
+      height: 200px;
+    }
+  
+    .h2-blog {
+      font-size: 24px; 
+    }
+  
+    .blog-image-item img {
+      height: 150px; 
+    }
+  
+    .blog-h3 {
+      font-size: 16px; 
+    }
+    .contact-text-container {
+      width: 90%;
+      padding-bottom: 10px;
+    }
+    .contact-info{
+      padding-bottom:50px;
+    }
+  
+    .logo-footer img {
+      width: 120px; 
+    }
+  
+    .new-phone-image {
+      right: 10px;  
+      transform: translateY(-10%); 
+    }
+  
+    .new-phone-image img {
+      width: 120px;  
+    }
+  
+  }
+  
